@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.assignment.loginfirebase">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/bulb"
+        android:label="L&amp;Q"
+        android:roundIcon="@drawable/bulb"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LogInFirebase"
+        tools:targetApi="31">
+        <activity
+            android:name=".QuizCosmo"
+            android:exported="false" />
+        <activity
+            android:name=".QuizBio"
+            android:exported="false" />
+        <activity
+            android:name=".QuizGK"
+            android:exported="false" />
+        <activity
+            android:name=".Answers.LifestyleA"
+            android:exported="false" />
+        <activity
+            android:name=".Questions.LifestyleQ"
+            android:exported="false" />
+        <activity
+            android:name=".Answers.LiteratureA"
+            android:exported="false" />
+        <activity
+            android:name=".Questions.LiteratureQ"
+            android:exported="false" />
+        <activity
+            android:name=".Answers.EntertainmentA"
+            android:exported="false" />
+        <activity
+            android:name=".Questions.EntertainmentQ"
+            android:exported="false" />
+        <activity
+            android:name=".Answers.PoliticsA"
+            android:exported="false" />
+        <activity
+            android:name=".Questions.PoliticsQ"
+            android:exported="false" />
+        <activity
+            android:name=".Answers.MedicineA"
+            android:exported="false" />
+        <activity
+            android:name=".Questions.MedicineQ"
+            android:exported="false" />
+        <activity
+            android:name=".Questions.ScienceQ"
+            android:exported="false" />
+        <activity
+            android:name=".basic_activities.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Answers.SportsA"
+            android:exported="false" />
+        <activity
+            android:name=".Questions.SportsQ"
+            android:exported="false" />
+        <activity
+            android:name=".Answers.ScienceA"
+            android:exported="false" />
+        <activity
+            android:name=".basic_activities.SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".basic_activities.SignInActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".basic_activities.MainActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
