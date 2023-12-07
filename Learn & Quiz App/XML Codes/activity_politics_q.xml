@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yellow"
+    android:padding="16dp"
+    tools:context=".Questions.PoliticsQ">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/acme"
+        android:text="Q1. Which country’s parliament is known as the Knesset?\nA. Jordan
+ \nB. Israel
+ \nC. Lebanon
+ \nD. Cyprus"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/acme"
+        android:text="Q2.  After its formation in 1949, who was West Germany’s first chancellor?\nA. Konrad Adenauer
+\nB. Gerhard Schroder
+\nC. Helmut Schmidt
+\nD. Ludwig Erhard"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:textStyle="normal" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/acme"
+        android:text="Q3.  Which sport did Pakistani Prime Minister Imran Khan play at the international level?\nA. Cricket
+\nB. Squash
+\nC. Badminton
+\nD.  Hockey"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/acme"
+        android:text="Q4. In which country was Israel’s fourth prime minister, Golda Meir, born?\nA.  Palestine
+\nB. Ukraine
+\nC. Jordan
+\nD. None"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/acme"
+        android:text="Q5. Public domain allows an artist or creator to hold the copyright of their work perpetually.\nA. True
+\nB. False"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="normal" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/acme"
+        android:text="Q6. Jubilee House is the name given to which African country’s presidential residence?\nA. South Africa
+\nB. Ghana
+\nC. Nigeria
+\nD. Kenya"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/acme"
+            android:text="Q7. 'Which international alliance’s self-defense clause was first invoked in 2001, following terrorist attacks on the World Trade Center and Pentagon?\nA. NATO
+\nB. SEATO
+\nC. Warsaw Pact
+\nD. European Union"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/acme"
+            android:text="Q8.  Copyright is designed to protect artists or publishers.\nA. True
+\nB. False"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/acme"
+            android:text="Q9.  The Statute of Anne, passed in England in 1710, excluded authors as potential beneficiaries of copyright law.\nA. True
+\nB. False"
+
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="normal" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/acme"
+            android:text="Q10. The World Bank was set up following which event?\nA. Casablanca Conference
+\nB. Treaty of Varala
+\nC. Bretten Wood of Conference
+\nD. Cairo Conference"
+
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginStart="56dp"
+        android:backgroundTint="#FF9800"
+        android:text="Home"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ans"
+        app:layout_constraintHorizontal_bias="0.744"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.998" />
+
+    <Button
+        android:id="@+id/ans"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:backgroundTint="#FF9800"
+        android:text="Answers"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.984"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

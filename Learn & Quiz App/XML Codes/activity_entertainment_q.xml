@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yellow"
+    android:padding="16dp"
+    tools:context=".Questions.EntertainmentQ">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/acme"
+        android:text="Q1. What oil is characteristically used in the cooking of South India?\nA. Pineapple Oil
+ \nB. Coconut Oil
+ \nC. Canola Oil
+ \nD. Olive Oil"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/acme"
+        android:text="Q2.  Who is Ajay Devgn's wife?\nA. Tabu
+\nB. Sania Mirza
+\nC. Kajal Agarwal
+\nD. Kajol"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:textStyle="normal" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/acme"
+        android:text="Q3. What is the name for a popular Indian dessert dish?\nA. Samosa
+\nB. Gulab Jamun
+\nC. Chai
+\nD. None of these"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/acme"
+        android:text="Q4. Which was the first Indian movie nominated for Oscar?\nA.  Palestine
+\nB. Ukraine
+\nC. Jordan
+\nD. None"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/acme"
+        android:text="Q5. What is the main ingredient of gaajar ka halwa?.\nA. Carrot
+\nB. Turnip"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="normal" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/acme"
+        android:text="Q6. Concerning Indian films, how many tickets were sold across the globe in 2011?\nA. 100 million tickets
+\nB. 3.5 million tickets
+\nC. 3.5 billion tickets
+\nD. 250 milion tickets"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/acme"
+            android:text="Q7. Which of these was called food of the gods in ancient India?\nA. Yogurt
+\nB. Cheese
+\nC. Potato
+\nD. Bread"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/acme"
+            android:text="Q8.  Which American animated television series featured a flying squirrel and a moose as its hosts?\nA. Garfield and friends
+\nB. Underdog
+\nC. The Mickey Mouse Club
+\nD. The Adventure of Rocky and Bullwinkle and friends"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/acme"
+            android:text="Q9.  Which character is a diminutive super hero rodent who will “save the day?”\nA. Jerry the mouse
+\nB. Mighty Mouse
+\nC. Stuart Little
+\D. Mickey Mouse"
+
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="normal" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/acme"
+            android:text="Q10. What country does the word mocha come from?\nA. Pakistan
+\nB. Yemen
+\nC. Saudi Arabia
+\nD. Tonga"
+
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginStart="56dp"
+        android:backgroundTint="#FF9800"
+        android:text="Home"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ans"
+        app:layout_constraintHorizontal_bias="0.744"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.998" />
+
+    <Button
+        android:id="@+id/ans"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:backgroundTint="#FF9800"
+        android:text="Answers"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.984"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

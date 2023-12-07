@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">LogInFirebase</string>
+
+    <string name="Question1">Q1. What is the capital of India?</string>
+    <string name="Question2">Q2. What is the capital of United State of America?</string>
+    <string name="Question3">Q3. What is the capital of Australia?</string>
+    <string name="Question4">Q4. What is the capital of Russia?</string>
+    <string name="Question5">Q5. What is the capital of New Zealand?</string>
+    <string name="Question6">Q6. What is the capital of Germany?</string>
+    <string name="Question7">Q7. What is the capital of Argentina?</string>
+    <string name="Question8">Q8. What is the capital of China?</string>
+    <string name="Question9">Q9. What is the capital of France?</string>
+    <string name="Question10">Q10. What is the capital of Brazil?</string>
+    <!--    -->
+    <string name="Bquestion1">Q1. Which of the following is a large blood vessel that carries blood away from the heart?</string>
+    <string name="Bquestion2">Q2. Which of the following is not a member of the vitamin B complex?</string>
+    <string name="Bquestion3">Q3. Fungi are plants that lack........</string>
+    <string name="Bquestion4">Q4. What makes a reptile a reptile?</string>
+    <string name="Bquestion5">Q5. Which blood vessels have the smallest diameter?</string>
+    <string name="Bquestion6">Q6. Which of the following is an air-borne disease?</string>
+    <string name="Bquestion7">Q7. Which organ of the body produces the fluid known as bile?</string>
+    <string name="Bquestion8">Q8. Which of the following hormones is a steroid?</string>
+    <string name="Bquestion9">Q9. Which one of the following is not a function of the liver?</string>
+    <string name="Bquestion10">Q10. A yellow dust appears on the fingers, whenever we touch the middle of a flower. These tiny yellow grains are one of the most precious substances in nature because they contain the secret of plant life.  What is this dust called?</string>
+    <!---->
+    <string name="Gquestion1">Q1. Kiran Bedi received Magsaysay Award for government service in</string>
+    <string name="Gquestion2">Q2. Logarithm tables were invented by</string>
+    <string name="Gquestion3">Q3. Milkha Singh Stood ____ in 1960 Olympics, in Athletics.</string>
+    <string name="Gquestion4">Q4. Kathakali, Mohiniatam and Ottamthullal are the famous dances of</string>
+    <string name="Gquestion5">Q5. Lala Lajpat Rai is also known as</string>
+    <string name="Gquestion6">Q6. Modern football is said to have evolved from</string>
+    <string name="Gquestion7">Q7. Jaspal Rana is associated with which of the following games?</string>
+    <string name="Gquestion8">Q8. Ms. Medha Patkar is associated with the</string>
+    <string name="Gquestion9">Q9. Kemal Ataturk was</string>
+    <string name="Gquestion10">Q10.With which sport is the Jules Rimet trophy associated?</string>
+
+    <string name="Cqueston1">Q1. Who was the first person in space?</string>
+    <string name="Cqueston2">Q2. Which planet was the first to be successfully visited by an spacecraft?</string>
+    <string name="Cqueston3">Q3. Select a planet that has rings</string>
+    <string name="Cqueston4">Q4. On which planet could you jump the highest?</string>
+    <string name="Cqueston5">Q5. Which of these is not a constellation?</string>
+    <string name="Cqueston6">Q6. Which of these is a catalogue of astronomical objects?</string>
+    <string name="Cqueston7">Q7. Which comet has had the most encounters by spacecraft?</string>
+    <string name="Cqueston8">Q8. How many Solar System bodies (other than the Earth) did the New Horizons spacecraft encounter on its way to Pluto?</string>
+    <string name="Cqueston9">Q9. What was the highest number of objects categorised as planets at any one time?</string>
+    <string name="Cqueston10">Q10. Which solar system object has the deepest water ice cloud layer?</string>
+
+</resources>

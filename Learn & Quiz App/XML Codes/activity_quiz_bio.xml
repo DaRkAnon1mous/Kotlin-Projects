@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yellow"
+    android:padding="16dp"
+    tools:context=".QuizBio">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:orientation="vertical">
+        <TextView
+            style="@style/Questions"
+            android:text="@string/Bquestion1"
+            android:layout_marginBottom="6dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/bvessel"
+            android:layout_marginBottom="16dp"
+            android:scaleType="fitCenter"/>
+
+        <RadioGroup
+            android:id="@+id/radio_group1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp">
+
+            <RadioButton
+                android:id="@+id/q1o1"
+                style="@style/Options"
+                android:text="Vein" />
+
+            <RadioButton
+                android:id="@+id/q1o2"
+                style="@style/Options"
+                android:text="Artery" />
+
+            <RadioButton
+                android:id="@+id/q1o3"
+                style="@style/Options"
+                android:text="Nerve" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/result1"
+            android:textSize="14sp"
+            android:textColor="#000"
+            android:layout_marginBottom="2dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/cardview_dark_background"
+            android:layout_marginBottom="14dp"/>
+        <!---->
+        <TextView
+            style="@style/Questions"
+            android:text="@string/Bquestion2"
+            android:layout_marginBottom="6dp"/>
+
+        <ImageView
+            android:layout_width="349dp"
+            android:layout_height="200dp"
+            android:layout_marginBottom="16dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/vitb" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:id="@+id/radio_group2">
+            <RadioButton
+                style="@style/Options"
+                android:text="Riboflavin"
+                android:id="@+id/q2o1"/>
+
+            <RadioButton
+                style="@style/Options"
+                android:text="Thiamine"
+                android:id="@+id/q2o2"/>
+
+            <RadioButton
+                style="@style/Options"
+                android:text="Ascorbic acid"
+                android:id="@+id/q2o3"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/result2"
+            android:textSize="14sp"
+            android:textColor="#000"
+            android:layout_marginBottom="2dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/cardview_dark_background"
+            android:layout_marginBottom="14dp"/>
+        <!---->
+        <TextView
+            style="@style/Questions"
+            android:text="@string/Bquestion3"
+            android:layout_marginBottom="6dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/fungi"
+            android:layout_marginBottom="16dp"
+            android:scaleType="centerCrop"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radio_group3"
+            android:layout_marginBottom="3dp">
+            <RadioButton
+                style="@style/Options"
+                android:text="Oxygen"
+                android:id="@+id/q3o1"/>
+
+            <RadioButton
+                style="@style/Options"
+                android:text="Chlorophyll"
+                android:id="@+id/q3o2"/>
+
+            <RadioButton
+                style="@style/Options"
+                android:text="Carbon dioxide"
+                android:id="@+id/q3o3"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/result3"
+            android:textSize="14sp"
+            android:textColor="#000"
+            android:layout_marginBottom="2dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/cardview_dark_background"
+            android:layout_marginBottom="14dp"/>
+        <!---->
+        <TextView
+            style="@style/Questions"
+            android:text="@string/Bquestion4"
+            android:layout_marginBottom="6dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/rept"
+            android:layout_marginBottom="16dp"
+            android:scaleType="fitCenter"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radio_group4"
+            android:layout_marginBottom="3dp">
+            <RadioButton
+                style="@style/Options"
+                android:text="Warm Blooded"
+                android:id="@+id/q4o1"/>
+
+            <RadioButton
+                style="@style/Options"
+                android:text="Non-Hearing"
+                android:id="@+id/q4o2"/>
+
+            <RadioButton
+                style="@style/Options"
+                android:text="Egg-laying"
+                android:id="@+id/q4o3"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/result4"
+            android:textSize="14sp"
+            android:textColor="#000"
+            android:layout_marginBottom="2dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/cardview_dark_background"
+            android:layout_marginBottom="14dp"/>
+        <!---->
+        <TextView
+            style="@style/Questions"
+            android:text="@string/Bquestion5"
+            android:layout_marginBottom="6dp"/>
+
+        <ImageView
+            android:layout_width="336dp"
+            android:layout_height="189dp"
+            android:layout_marginBottom="16dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/bvessel2" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radio_group5"
+            android:layout_marginBottom="3dp">
+            <RadioButton
+                style="@style/Options"
+                android:text="Capillaries"
+                android:id="@+id/q5o1"/>
+
+            <RadioButton
+                style="@style/Options"
+                android:text="Arterioles"
+                android:id="@+id/q5o2"/>
+
+            <RadioButton
+                style="@style/Options"
+                android:text="Venules"
+                android:id="@+id/q5o3"/>
+        </RadioGroup>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/result5"
+            android:textSize="14sp"
+            android:textColor="#000"
+            android:layout_marginBottom="2dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/cardview_dark_background"
+            android:layout_marginBottom="6dp"/>
+
+        <!--       ///////////////////////////////////////////////////// -->
+        <TextView
+            style="@style/Questions"
+            android:text="@string/Bquestion6"
+            android:layout_marginBottom="6dp"/>
+
+        <ImageView
+            android:layout_width="349dp"
+            android:layout_height="200dp"
+            android:layout_marginBottom="16dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/aborne" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:id="@+id/radio_group6">
+            <RadioButton
+                style="@style/Options"
+                android:text="Measles"
+                android:id="@+id/q6o1"/>
+
+            <RadioButton
+                style="@style/Options"
+                android:text="Pink eye"
+                android:id="@+id/q6o2"/>
+
+            <RadioButton
+                style="@style/Options"
+                android:text="Typhoid"
+                android:id="@+id/q6o3"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/result6"
+            android:textSize="14sp"
+            android:textColor="#000"
+            android:layout_marginBottom="2dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/cardview_dark_background"
+            android:layout_marginBottom="14dp"/>
+        <!--        -->
+
+        <TextView
+            style="@style/Questions"
+            android:text="@string/Bquestion7"
+            android:layout_marginBottom="6dp"/>
+
+        <ImageView
+            android:layout_width="349dp"
+            android:layout_height="200dp"
+            android:layout_marginBottom="16dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/organs" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:id="@+id/radio_group7">
+            <RadioButton
+                style="@style/Options"
+                android:text="Liver"
+                android:id="@+id/q7o1"/>
+
+            <RadioButton
+                style="@style/Options"
+                android:text="Kidney"
+                android:id="@+id/q7o2"/>
+
+            <RadioButton
+                style="@style/Options"
+                android:text="Pancreas"
+                android:id="@+id/q7o3"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/result7"
+            android:textSize="14sp"
+            android:textColor="#000"
+            android:layout_marginBottom="2dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/cardview_dark_background"
+            android:layout_marginBottom="14dp"/>
+
+        <!---->
+
+        <TextView
+            style="@style/Questions"
+            android:text="@string/Bquestion8"
+            android:layout_marginBottom="6dp"/>
+
+        <ImageView
+            android:layout_width="349dp"
+            android:layout_height="200dp"
+            android:layout_marginBottom="16dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/hormones" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:id="@+id/radio_group8">
+            <RadioButton
+                style="@style/Options"
+                android:text="Estrogen"
+                android:id="@+id/q8o1"/>
+
+            <RadioButton
+                style="@style/Options"
+                android:text="Insulin"
+                android:id="@+id/q8o2"/>
+
+            <RadioButton
+                style="@style/Options"
+                android:text="Oxytocin "
+                android:id="@+id/q8o3"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/result8"
+            android:textSize="14sp"
+            android:textColor="#000"
+            android:layout_marginBottom="2dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/cardview_dark_background"
+            android:layout_marginBottom="14dp"/>
+        <!--        -->
+        <TextView
+            style="@style/Questions"
+            android:text="@string/Bquestion9"
+            android:layout_marginBottom="6dp"/>
+
+        <ImageView
+            android:layout_width="349dp"
+            android:layout_height="200dp"
+            android:layout_marginBottom="16dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/liver" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:id="@+id/radio_group9">
+            <RadioButton
+                style="@style/Options"
+                android:text="Enzyme activation"
+                android:id="@+id/q9o1"/>
+
+            <RadioButton
+                style="@style/Options"
+                android:text="Detoxification"
+                android:id="@+id/q9o2"/>
+
+            <RadioButton
+                style="@style/Options"
+                android:text="Reproduction "
+                android:id="@+id/q9o3"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/result9"
+            android:textSize="14sp"
+            android:textColor="#000"
+            android:layout_marginBottom="2dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/cardview_dark_background"
+            android:layout_marginBottom="14dp"/>
+        <!--        -->
+        <TextView
+            style="@style/Questions"
+            android:text="@string/Bquestion10"
+            android:layout_marginBottom="6dp"/>
+
+        <ImageView
+            android:layout_width="349dp"
+            android:layout_height="200dp"
+            android:layout_marginBottom="16dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/pollen" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:id="@+id/radio_group10">
+            <RadioButton
+                style="@style/Options"
+                android:text="Pollen"
+                android:id="@+id/q10o1"/>
+
+            <RadioButton
+                style="@style/Options"
+                android:text="Sporocyst"
+                android:id="@+id/q10o2"/>
+
+            <RadioButton
+                style="@style/Options"
+                android:text="Spore  "
+                android:id="@+id/q10o3"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/result10"
+            android:textSize="14sp"
+            android:textColor="#000"
+            android:layout_marginBottom="2dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/cardview_dark_background"
+            android:layout_marginBottom="14dp"/>
+
+        <!--        \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:id="@+id/score"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/button"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Play Again"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:visibility="gone"
+            android:id="@+id/reset"/>
+
+    </LinearLayout>
+</ScrollView>
